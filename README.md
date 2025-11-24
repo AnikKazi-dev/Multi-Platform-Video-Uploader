@@ -2,7 +2,7 @@
 
 A powerful desktop application to upload short-form videos (Shorts, Reels, TikToks) to multiple platforms simultaneously with a single click.
 
-![App Screenshot](screenshot.png)
+![App Screenshot](Screenshot.png)
 
 ## Features
 
