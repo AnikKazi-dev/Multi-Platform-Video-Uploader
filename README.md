@@ -21,6 +21,7 @@ A powerful desktop application to upload short-form videos (Shorts, Reels, TikTo
 ## Installation
 
 1.  **Clone the repository**
+
     ```bash
     git clone https://github.com/AnikKazi-dev/Multi-Platform-Video-Uploader.git
     cd Multi-Platform-Video-Uploader
@@ -28,6 +29,7 @@ A powerful desktop application to upload short-form videos (Shorts, Reels, TikTo
 
 2.  **Install Dependencies**
     It is recommended to use a virtual environment (like Conda or venv).
+
     ```bash
     pip install -r requirements.txt
     ```
@@ -35,22 +37,26 @@ A powerful desktop application to upload short-form videos (Shorts, Reels, TikTo
 3.  **Configuration**
     - Rename `config.example.json` to `config.json`.
     - Open `config.json` and update the fields:
-        - **Instagram**: Add your username and password.
-        - **Others**: The app primarily uses browser automation for YouTube, Facebook, and TikTok, so you will log in interactively the first time.
+      - **Instagram**: Add your username and password.
+      - **Others**: The app primarily uses browser automation for YouTube, Facebook, and TikTok, so you will log in interactively the first time.
 
 ## Usage
 
 1.  **Run the Application**
     You can use the provided batch file for easy launching:
+
     ```bash
     run.bat
     ```
+
     Or run with Python directly:
+
     ```bash
     python main.py
     ```
 
 2.  **First Time Setup (Browser Login)**
+
     - When you run an upload for YouTube, Facebook, or TikTok for the first time, a browser window will open.
     - **Log in** to your account manually in that window.
     - The app will save your session profile locally (`selenium_*_profile` folders).
