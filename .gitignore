@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Configuration with secrets
+config.json
+client_secrets.json
+cookies.json
+
+# Selenium Profiles (contain login sessions)
+selenium_facebook_profile/
+selenium_tiktok_profile/
+selenium_youtube_profile/
+selenium_instagram_profile/
+
+# VS Code
+.vscode/
+
+# Logs
+*.log

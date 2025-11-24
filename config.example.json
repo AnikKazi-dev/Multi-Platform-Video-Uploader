@@ -1,0 +1,16 @@
+{
+  "youtube": {
+    "client_secrets_file": "client_secrets.json"
+  },
+  "instagram": {
+    "username": "YOUR_INSTAGRAM_USERNAME",
+    "password": "YOUR_INSTAGRAM_PASSWORD"
+  },
+  "facebook": {
+    "page_id": "YOUR_PAGE_ID_IF_USING_API",
+    "access_token": "YOUR_ACCESS_TOKEN_IF_USING_API"
+  },
+  "tiktok": {
+    "cookies_path": "cookies.json"
+  }
+}

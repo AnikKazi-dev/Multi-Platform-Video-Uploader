@@ -1,0 +1,11 @@
+customtkinter
+google-api-python-client
+google-auth-oauthlib
+google-auth-httplib2
+requests
+selenium
+webdriver-manager
+pillow
+instagrapi
+undetected-chromedriver
+moviepy
